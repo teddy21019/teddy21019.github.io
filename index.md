@@ -4,13 +4,13 @@
 
 ### EDA
 
-#### [**風向哪裡跑？**](/Projects/US%20Election%202016.html)
+#### [風向哪裡跑？](/Projects/US%20Election%202016.html)
 
 *美國 2016 總統大選時期 Facebook 粉絲專頁與用戶行為的社會網路探討*
 <img src="images/us_election_banner.png"/>
 
 ---
-#### [**ParkFinder**](https://parkfinder.streamlit.app/)
+#### [ParkFinder](https://parkfinder.streamlit.app/)
 
 *自動化蒐集台北市停車場資料，並建立網站提供視覺化應用*
 <img src="images/demo_web.png"/>
