@@ -2,7 +2,7 @@
 
 ---
 
-### EDA
+### 數據分析與資料科學專案
 
 #### [風向哪裡跑？](/Projects/US%20Election%202016.html)
 
@@ -17,7 +17,7 @@
 
 ---
 
-### Medium 選集
+### Medium 文章選集
 
 #### [機器學習 vs 經濟學](https://medium.com/@ted21019/機器學習-vs-經濟學-3ec7068556cc)
 
