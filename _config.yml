@@ -1,11 +1,16 @@
-title: Teddy Chen # your name (or website title) here
+title: 陳家威 Teddy Chen
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+description: >
+  國立台灣大學經濟學研究所 | 計量因果分析 | ML
   <br><br>
-  Second description 
+  任何無聊日常都想也都可以分析的數據獵人
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/chiaweichen/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white">
+  </a>
+  <a href="https://medium.com/@ted21019">
+    <img alt="Medium" src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&amp;logo=medium&amp;logoColor=white">
+  </a>
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
