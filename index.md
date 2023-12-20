@@ -16,7 +16,7 @@
 <img src="images/demo_web.png"/>
 
   - [延伸專案 --- 可否根據停車場空位性質，區分種類？](/Projects/classify_park.html)
-    <img src="images/pakring_cluster_demo.png">
+    <img src="images/parking_cluster_demo.png">
 ---
 
 ### Medium 文章選集
