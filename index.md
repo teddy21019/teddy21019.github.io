@@ -4,7 +4,7 @@
   section img{
     margin-top: 30px;
     display: block;
-    max-width: 70%;
+    max-width: 90%;
   }
 </style>
 
