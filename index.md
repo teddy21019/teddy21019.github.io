@@ -1,5 +1,14 @@
 ## Portfolio
 
+<style>
+  section img{
+    margin-top: 30px;
+    display: block;
+    max-width: 70%;
+  }
+</style>
+
+
 ---
 
 ### 數據分析與資料科學專案
