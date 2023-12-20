@@ -15,6 +15,8 @@
 *自動化蒐集台北市停車場資料，並建立網站提供視覺化應用*
 <img src="images/demo_web.png"/>
 
+  - [延伸專案 --- 可否根據停車場空位性質，區分種類？](/Projects/classify_park.html)
+    <img src="images/pakring_cluster_demo.png">
 ---
 
 ### Medium 文章選集
