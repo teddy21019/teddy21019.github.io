@@ -39,6 +39,14 @@
     
 ---
 
+## Python Package
+
+### [Dotomorrow](https://github.com/teddy21019/dotomorrow)
+
+*需要跑好久的迴圈該如何避免中斷後所有資料都遺失？如果自動儲存及載入的過程太麻煩讓程式碼顯得混論，可以讓 Dotomorrow 幫你完成！*
+
+---
+
 ## Medium 文章選集
 
 ### [機器學習 vs 經濟學](https://medium.com/@ted21019/機器學習-vs-經濟學-3ec7068556cc)
@@ -71,5 +79,6 @@
 *理性預期如果無法完美的刻劃人的行為，那這個方法就可以模擬人的學習過程。究竟在模擬學習過程後，有沒有辦法解決經濟學中實證與理論不符的諸多現象？*
 
 ---
+
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
