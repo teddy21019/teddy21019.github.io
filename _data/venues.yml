@@ -1,9 +1,5 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+# Optional venue badges for publications, keyed by a bib entry's `abbr` field.
+# Example:
+# "AEL":
+#   url: https://www.tandfonline.com/journals/rael20
+#   color: "#00369f"
