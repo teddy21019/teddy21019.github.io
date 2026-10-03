@@ -1,0 +1,63 @@
+/* Substack-style blog: reading column, serif body, post header, archive list.
+   Used by _layouts/substack-post.liquid and _layouts/substack-archive.liquid.
+   Colors use al-folio's --global-* variables so light/dark mode keep working. */
+
+.ss {
+  --ss-width: 680px;
+  --ss-serif: "Source Serif 4", "Source Serif Pro", Georgia, Cambria, "Times New Roman", serif;
+  max-width: var(--ss-width);
+  margin: 0 auto;
+  padding: 1.5rem 0 3rem;
+}
+
+/* ---------- Post ---------- */
+
+/* End-of-post subscribe block */
+.ss-subscribe {
+  margin-top: 3rem;
+  padding: 1.75rem;
+  text-align: center;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+}
+.ss-subscribe h3 {
+  font-family: var(--ss-serif);
+  font-size: 1.3rem;
+  margin: 0 0 0.4rem;
+}
+.ss-subscribe p {
+  color: var(--global-text-color-light);
+  margin: 0 0 1rem;
+}
+.ss-button {
+  display: inline-block;
+  padding: 0.55rem 1.4rem;
+  border-radius: 6px;
+  background: var(--global-theme-color);
+  color: var(--global-bg-color) !important;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+.ss-button:hover {
+  opacity: 0.85;
+}
+
+/* ---------- Archive ---------- */
+.ss-archive-header {
+  margin-bottom: 1.5rem;
+}
+.ss-archive-header h1 {
+  font-family: var(--ss-serif);
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0 0 0.3rem;
+}
+.ss-archive-header p {
+  color: var(--global-text-color-light);
+  margin: 0;
+}
+.ss-empty {
+  color: var(--global-text-color-light);
+}
+
+/* ---------- Phone widths ---------- */
