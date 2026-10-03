@@ -1,2 +1,33 @@
 # Coauthors: names in .bib files that match an entry here are auto-linked.
-# Key = last name in lowercase. See MAINTAINING.md → "Add a new coauthor".
+# Key = last name in lowercase. `firstname` lists every spelling used in the
+# .bib files. See MAINTAINING.md → "Add a new coauthor".
+
+"ho":
+  - firstname: ["Tai-Kuang", "T.-K."]
+    url: https://homepage.ntu.edu.tw/~taikuangho/
+
+"hong":
+  - firstname: ["Joonkyo", "J."]
+    url: https://joonkyo-hong.github.io/
+
+"kao":
+  - firstname: ["Erin Hui-Chuan", "Erin", "E. H.-C.", "E."]
+    url: https://inttrade.thu.edu.tw/en/cat-faculty-1/%e9%ab%98%e6%83%a0%e5%a8%9f-%e5%89%af%e6%95%99%e6%8e%88/
+
+"komatsu":
+  - firstname: ["Toshiaki", "T."]
+    url: https://www.toshi-komatsu.com/
+
+"lien":
+  - firstname: ["Donald", "Don", "Da-Hsiang", "D."]
+    url: https://business.utsa.edu/faculty/profiles/lien-don.html
+
+"liu":
+  - firstname: ["Jin-Tan", "J.-T."]
+    url: https://homepage.ntu.edu.tw/~liujt/
+
+"wang":
+  - firstname: ["Jen-Kuan", "J.-K."]
+    url: https://jenkuanwang.github.io/
+
+# Thz-Chia Shih: no homepage

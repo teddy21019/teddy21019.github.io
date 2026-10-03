@@ -1,0 +1,39 @@
+# Teaching entries, one per course. Shown on /teaching/, grouped by institution
+# in the order institutions first appear below (put the newest first).
+# Fields: course, role, institution, term, instructor (optional), link (optional)
+# See MAINTAINING.md → "Add a teaching entry".
+
+- course: Quantitative Methods in Economics II (Ph.D. Econometrics)
+  role: Teaching Assistant
+  institution: Washington University in St. Louis
+  term: Fall 2026
+  instructor: Prof. Xiaofeng Shao
+  link:
+
+- course: Predicting Financial Crisis
+  role: Teaching Assistant
+  institution: National Taiwan University
+  term: Spring 2023
+  instructor: Prof. Tai-Kuang Ho
+  link:
+
+- course: "International Finance: The Theory, History, and Econometrics"
+  role: Teaching Assistant
+  institution: National Taiwan University
+  term: Spring 2022
+  instructor: Prof. Tai-Kuang Ho
+  link:
+
+- course: Principle of Economics
+  role: Teaching Assistant
+  institution: National Taiwan University
+  term: Spring 2022
+  instructor: Prof. Tsong-Min Wu
+  link:
+
+- course: Econometrics
+  role: Teaching Assistant
+  institution: Tunghai University
+  term: Fall 2022 and 2023
+  instructor: Prof. Erin Kao
+  link:
