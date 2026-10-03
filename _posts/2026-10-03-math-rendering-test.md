@@ -3,6 +3,7 @@ title: "Testing math on the new blog"
 subtitle: "Inline math, display equations, and aligned blocks, rendered with MathJax."
 date: 2026-10-03
 tags: [meta]
+published: false # math rendering test; set to true to view it locally or publish it
 ---
 
 This post checks that math renders correctly. Inline math with dollar signs: the elasticity $\varepsilon = \frac{\partial \ln q}{\partial \ln p}$ sits inside a sentence. Inline math with subscripts and stars, using double dollars to keep Markdown away from the underscores: $$x_{it}^* = \alpha_i + \beta x_{i,t-1}$$.
