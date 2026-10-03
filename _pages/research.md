@@ -11,13 +11,13 @@ nav_order: 2
 
 <div class="publications">
 
+<h2>Published Papers</h2>
+{% bibliography --file published %}
+
 <h2>Working Papers</h2>
 {% bibliography --file wp %}
 
 <h2>Work in Progress</h2>
 {% bibliography --file wip %}
-
-<h2>Published Papers</h2>
-{% bibliography --file published %}
 
 </div>
