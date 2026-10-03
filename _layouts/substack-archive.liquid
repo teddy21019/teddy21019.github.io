@@ -1,0 +1,49 @@
+---
+layout: default
+---
+{%- comment -%}
+  Substack-style blog archive: title, subtitle, date, optional thumbnail (the post's `cover`).
+  Site-local layout (not an al-folio override). Styles: assets/css/substack.css.
+{%- endcomment -%}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;1,8..60,400&display=swap">
+<link rel="stylesheet" href="{{ '/assets/css/substack.css' | relative_url }}">
+{% feed_meta %}
+
+<div class="ss">
+  <header class="ss-archive-header">
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+  </header>
+
+  {{ content }}
+
+  {% assign posts = site.posts | where_exp: 'p', 'p.hidden != true' %}
+  {% if posts.size > 0 %}
+    <ul class="ss-list">
+      {% for post in posts %}
+        <li class="ss-item">
+          <a class="ss-item-link" href="{{ post.url | relative_url }}">
+            <div>
+              <h2 class="ss-item-title">{{ post.title }}</h2>
+              {% if post.subtitle %}<p class="ss-item-subtitle">{{ post.subtitle }}</p>{% endif %}
+              <div class="ss-item-meta">{{ post.date | date: '%b %-d, %Y' }}</div>
+            </div>
+            {% if post.cover %}
+              {% if post.cover contains '://' %}
+                <img class="ss-item-thumb" src="{{ post.cover }}" alt="" loading="lazy">
+              {% else %}
+                <img class="ss-item-thumb" src="{{ post.cover | relative_url }}" alt="" loading="lazy">
+              {% endif %}
+            {% endif %}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="ss-empty">No posts yet.</p>
+  {% endif %}
+
+  {% include subscribe.liquid %}
+</div>

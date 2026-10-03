@@ -292,6 +292,11 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: substack-post
 
 sass:
   style: compressed

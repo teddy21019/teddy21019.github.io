@@ -1,0 +1,209 @@
+/* Substack-style blog: reading column, serif body, post header, archive list.
+   Used by _layouts/substack-post.liquid and _layouts/substack-archive.liquid.
+   Colors use al-folio's --global-* variables so light/dark mode keep working. */
+
+.ss {
+  --ss-width: 680px;
+  --ss-serif: "Source Serif 4", "Source Serif Pro", Georgia, Cambria, "Times New Roman", serif;
+  max-width: var(--ss-width);
+  margin: 0 auto;
+  padding: 1.5rem 0 3rem;
+}
+
+/* ---------- Post ---------- */
+.ss-post-header {
+  margin-bottom: 2rem;
+}
+.ss-title {
+  font-family: var(--ss-serif);
+  font-size: 2.6rem;
+  line-height: 1.15;
+  font-weight: 700;
+  margin: 0 0 0.6rem;
+  color: var(--global-text-color);
+}
+.ss-subtitle {
+  font-family: var(--ss-serif);
+  font-size: 1.35rem;
+  line-height: 1.4;
+  color: var(--global-text-color-light);
+  margin: 0 0 1.4rem;
+}
+.ss-byline {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}
+.ss-byline img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.ss-byline .ss-author {
+  color: var(--global-text-color);
+  font-weight: 600;
+}
+.ss-byline .ss-tags a {
+  color: var(--global-text-color-light);
+}
+.ss-cover {
+  margin: 0 0 2rem;
+}
+.ss-cover img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.ss-body {
+  font-family: var(--ss-serif);
+  font-size: 1.2rem;
+  line-height: 1.75;
+  color: var(--global-text-color);
+}
+.ss-body p,
+.ss-body ul,
+.ss-body ol,
+.ss-body blockquote {
+  margin: 0 0 1.5rem;
+}
+.ss-body h2,
+.ss-body h3 {
+  font-family: var(--ss-serif);
+  font-weight: 700;
+  margin: 2.5rem 0 1rem;
+}
+.ss-body blockquote {
+  border-left: 3px solid var(--global-theme-color);
+  padding-left: 1.2rem;
+  font-style: italic;
+  color: var(--global-text-color-light);
+}
+.ss-body img {
+  max-width: 100%;
+  height: auto;
+}
+.ss-body pre,
+.ss-body code {
+  font-size: 0.9rem;
+}
+.ss-body mjx-container[display="true"] {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* End-of-post subscribe block */
+.ss-subscribe {
+  margin-top: 3rem;
+  padding: 1.75rem;
+  text-align: center;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+}
+.ss-subscribe h3 {
+  font-family: var(--ss-serif);
+  font-size: 1.3rem;
+  margin: 0 0 0.4rem;
+}
+.ss-subscribe p {
+  color: var(--global-text-color-light);
+  margin: 0 0 1rem;
+}
+.ss-button {
+  display: inline-block;
+  padding: 0.55rem 1.4rem;
+  border-radius: 6px;
+  background: var(--global-theme-color);
+  color: var(--global-bg-color) !important;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+.ss-button:hover {
+  opacity: 0.85;
+}
+
+/* ---------- Archive ---------- */
+.ss-archive-header {
+  margin-bottom: 1.5rem;
+}
+.ss-archive-header h1 {
+  font-family: var(--ss-serif);
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0 0 0.3rem;
+}
+.ss-archive-header p {
+  color: var(--global-text-color-light);
+  margin: 0;
+}
+.ss-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.ss-item {
+  border-top: 1px solid var(--global-divider-color);
+}
+.ss-item a.ss-item-link {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.4rem 0;
+  color: inherit;
+  text-decoration: none;
+}
+.ss-item a.ss-item-link:hover .ss-item-title {
+  color: var(--global-theme-color);
+}
+.ss-item-title {
+  font-family: var(--ss-serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0 0 0.3rem;
+  color: var(--global-text-color);
+}
+.ss-item-subtitle {
+  color: var(--global-text-color-light);
+  margin: 0 0 0.5rem;
+  line-height: 1.45;
+}
+.ss-item-meta {
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+.ss-item-thumb {
+  flex: 0 0 auto;
+  width: 112px;
+  height: 80px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.ss-empty {
+  color: var(--global-text-color-light);
+}
+
+/* ---------- Phone widths ---------- */
+@media (max-width: 576px) {
+  .ss-title {
+    font-size: 2rem;
+  }
+  .ss-subtitle {
+    font-size: 1.15rem;
+  }
+  .ss-body {
+    font-size: 1.1rem;
+  }
+  .ss-item-thumb {
+    width: 80px;
+    height: 60px;
+  }
+}
