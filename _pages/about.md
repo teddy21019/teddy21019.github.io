@@ -24,9 +24,10 @@ latest_posts:
 ---
 
 Hi, I’m Chia-Wei (Teddy)! I’m a PhD student in Economics at Washington University in St. Louis.
-Before joining the program, I earned a master’s degree in Economics and a bachelor’s degree in Physics from National Taiwan University. I also spent a year as a full-time research assistant with Prof. [Jin-Tan Liu](https://homepage.ntu.edu.tw/~liujt/).
+Before joining the program, I earned a master’s degree in Economics and a bachelor’s degree in Physics from National Taiwan University (NTU). I also spent a year as a full-time research assistant with Prof. Jin-Tan Liu in NTU.
 
-My research interests lie at the intersection of industrial organization and international trade, with a focus on leveraging firm-level administrative data on trade and production networks.
+I work on industrial organization and international trade, using Taiwan's firm-level administrative data on trade and firm-to-firm production networks.
+I also study the video game industry, focusing on vertical integration between games and hardware platforms (consoles and PC) and on studios' make-or-buy decisions, such as whether to license a third-party game engine or build one in-house.
 
 ### Education
 
@@ -38,11 +39,11 @@ My research interests lie at the intersection of industrial organization and int
 
 ### Fields of Interest
 
-- Industrial Organization and Production Network
+- Industrial Organization and Production
 - International Economics and Trade
 - Structural Estimations and Econometrics
 
-(Though these are currently my main interests, I am open to other empirical topics)
+Though these are currently my main interests, I am open to other empirical topics
 
 ### Skills
 
